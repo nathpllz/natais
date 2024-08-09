@@ -8,20 +8,22 @@
 <body>
    <form action="" method="post">
     <p>digite seu nome:</p>
-    <input type="text" name="nome" placeholder="ex:Tais ">
+    <input type="text" name="nome" placeholder="ex:Tais" required>
     <p>Email: </p>
-    <input type="email" name="email">
+    <input type="email" name="email" required>
     <p>idade</p>
-    <input type= "number" name="idade">
+    <input type= "number" name="idade" required>
     <p>cidade</p>
     <input type="radio" name="city" value="curitiba"> curitiba
     <input type="radio" name="city" value="regiao metropolitana"> regiao metropolitana
     <p>quantidade de filhos</p>
     <select name="Filhos" id="">
+        <option value="0">0</option>
         <option value="1">1</option>
         <option value="2">2</option>
         <option value="3 ou mais">3 mais</option>
 </select>
+
     <input type="checkbox" name="novidades" checked> aceito receber novidade da empresa
     <br>
     <textarea name="reclamacao" id=""></textarea>
